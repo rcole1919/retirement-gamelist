@@ -1,2 +1,2 @@
 # retirement-gamelist
-Bige gamelist for our retirement
+Big gamelist for our retirement
