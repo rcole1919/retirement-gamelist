@@ -15,7 +15,11 @@
     <h1 class="visually-hidden">Список игр на пенсию</h1>
     <div class="castle">
       <div class="castle__logo">
-        <img src="./images/logo.png" width="960" height="50" alt="Список игр на пенсию">
+        <picture>
+          <source media="(max-width: 1280px)" srcset="./images/logo-1280.png">
+          <source media="(max-width: 1600px)" srcset="./images/logo-1600.png">
+          <img src="./images/logo.png" width="960" height="50" alt="Список игр на пенсию" class="castle__logo-img">
+        </picture>
       </div>
 
       <div class="castle__auth">
